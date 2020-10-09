@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="My_Styles/styles.css">
+    <title>WAND 1.0</title>
+</head>
+
+<body>
+    <nav class=" navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">WAND 1.0</span>
+    </nav>
+    <br>
+
+    <div class="flex container">
+
+
+
+        <div>
+            <button onclick="refresh()" type="button" class="btn btn-info">Refresh</button>
+        </div>
+        <div class="input-group mb-3 wall">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">Selecciona Pueto COM</label>
+            </div>
+            <select onclick="sel()" class="custom-select" id="inputGroupSelect01">
+                <option selected>Choose...</option>
+                <option id="puerto1" value="1">....</option>
+                <option id="puerto2" value="2">...</option>
+                <option id="puerto3" value="3">...</option>
+            </select>
+        </div>
+        <div>
+        <button onclick="START()" id="indicator"type="button" class="btn btn-outline-danger">START</button>
+        </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
